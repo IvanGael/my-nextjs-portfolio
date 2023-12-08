@@ -26,7 +26,7 @@ const Navbar = () => {
 
 
     const navigation: NavigationItem[] = [
-        { name: 'Accueil', href: '#', current: true },
+        { name: 'Accueil', href: '#main', current: true },
         { name: 'Projets', href: '#works-section', current: false },
         { name: 'Techs', href: '#techs-section', current: false },
         { name: 'Formations', href: '#formations-section', current: false },
@@ -89,19 +89,21 @@ const Navbar = () => {
                                             {item.name}
                                         </Link>
                                     ))}
-                                    {/* <Contactus /> */}
+                                    
                                 </div>
                             </div>
                         </div>
 
                         {/* SIGNIN DIALOG */}
 
-                        <Signdialog />
+                        {/* <Signdialog /> */}
+
+                        <Contactus />
 
 
                         {/* REGISTER DIALOG */}
 
-                        <Registerdialog />
+                        {/* <Registerdialog /> */}
 
 
                         {/* DRAWER FOR MOBILE VIEW */}

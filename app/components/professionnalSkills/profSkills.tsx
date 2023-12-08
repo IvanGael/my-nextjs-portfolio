@@ -8,6 +8,7 @@ const skillsData: ProfessionalSkills[] = [
     { skill: 'NodeJS', level: '0.4' },
     { skill: 'Spring boot', level: '0.4' },
     { skill: 'Flutter', level: '0.4' },
+    { skill: 'Firebase', level: '0.4' },
     { skill: 'Docker', level: '0.2' },
 ];
 

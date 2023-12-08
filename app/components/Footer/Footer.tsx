@@ -24,59 +24,29 @@ const footer = () => {
     return (
         <div className="bg-purple " id="first-section">
             <div className="mx-auto mt-5 max-w-2xl pt-2 pb-8 sm:px-2 lg:max-w-7xl lg:px-4">
-                {/* <div className="mt-10 grid grid-rows-12 items-center justify-center grid-flow-col">
-
-                
-
-                    <div >
-                        <img src={'/assets/logo/Logo2.svg'} alt="logo" className='pb-4' />
-                        <h3 className='text-white text-lg font-medium leading-9 mb-4 lg:mb-20'> Level up your skills, and get dream <br /> job with passion. </h3>
+                <div className="mt-10 flex flex-row items-center justify-center">
+                    <div className="basis-1/4">
                         <div className='flex gap-4'>
-                            <Link href="/"><img src={'/assets/footer/insta.svg'} alt="instagram" className='footer-icons' /></Link>
-                            <Link href="/"><img src={'/assets/footer/dribble.svg'} alt="dribble" className='footer-icons' /></Link>
-                            <Link href="/"><img src={'/assets/footer/twitter.svg'} alt="twitter" className='footer-icons' /></Link>
-                            <Link href="/"><img src={'/assets/footer/youtube.svg'} alt="youtube" className='footer-icons' /></Link>
+                            <a href="https://github.com/IvanGael" target="_blank">
+                                <img src={'/assets/footer/github.svg'} alt="github" className='footer-icons' />
+                            </a>
+                            <a href="https://www.instagram.com/_ivan_gael" target="_blank">
+                                <img src={'/assets/footer/instagram.svg'} alt="instagram" className='footer-icons' />
+                            </a>
+                            <a href="https://www.linkedin.com/in/ivan-apedo/" target="_blank">
+                                <img src={'/assets/footer/linkedin.svg'} alt="linkedin" className='footer-icons' />
+                            </a>
+                            <a href="https://www.twitter.com/IvanGal19" target="_blank">
+                                <img src={'/assets/footer/twitter2.svg'} alt="twitter" className='footer-icons' />
+                            </a>
                         </div>
                     </div>
 
-                    
-
-                    {products.map((product) => (
-                        <div key={product.id} className="group relative col-span-2">
-                            <p className="text-white text-xl font-semibold mb-9">{product.section}</p>
-                            <ul>
-                                {product.link.map((link: string, index: number) => (
-                                    <li key={index} className='mb-5'>
-                                        <Link href="/" className="text-offwhite text-sm font-normal mb-6 space-links">{link}</Link>
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-                    ))}
-
-                   
-
-                    <div className='col-span-4'>
-                        <h3 className='text-white text-xl font-semibold mb-6'>Stay up to date</h3>
-                        <div className="relative text-white focus-within:text-white flex flex-row-reverse">
-                            <input type="Email address" name="q" className="py-4 text-sm w-full text-white bg-gray-900 rounded-md pl-4 focus:outline-none bg-emailbg focus:text-white" placeholder="Your email address" autoComplete="off" />
-                            <div className="absolute inset-y-0 right-0 flex items-center pr-2">
-                                <button type="submit" className="p-1 focus:outline-none focus:shadow-outline">
-                                    <img src={'/assets/footer/inputIcon.svg'} alt="inputicon" />
-                                </button>
-                            </div>
-                        </div>
+                    <div className='basis-1/4'>
+                        <h3 className='text-center text-offwhite'>Copyright &copy;{new Date().getFullYear()} | Tous droits réservés</h3>
                     </div>
-
-                </div> */}
-
-                <div className=''>
-                    <h3 className='text-center text-offwhite'>Copyright &copy;{new Date().getFullYear()} | Tous droits réservés</h3>
                 </div>
             </div>
-
-
-
 
         </div>
     )
