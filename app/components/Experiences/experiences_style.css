@@ -1,0 +1,22 @@
+/* styles.css */
+.experience-container {
+    margin: 20px 0;
+  }
+  
+  .experience-item {
+    margin-bottom: 30px;
+  }
+  
+  .experience-item h2 {
+    color: #4E4FEB;
+  }
+  
+  .experience-item p {
+    margin-top: 5px;
+  }
+  
+
+  .experience-divider {
+    margin-top: 20px;
+    border-top: 3px solid #e2e8f0;
+  }

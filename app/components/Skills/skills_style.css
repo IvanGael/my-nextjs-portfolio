@@ -1,0 +1,38 @@
+/* styles.css */
+.skills-container {
+    margin: 20px 0;
+  }
+  
+  .skill-item {
+    margin-bottom: 15px;
+  }
+  
+  .skill-bar {
+    height: 8px;
+    background-color: #d1d5db;
+    border-radius: 4px;
+    margin-top: 8px;
+  }
+
+  .skill-level {
+    height: 100%;
+    border-radius: 4px;
+  }
+  
+  /* Skill levels */
+  .w-beginner {
+    width: 25%;
+  }
+  
+  .w-intermediate {
+    width: 50%;
+  }
+  
+  .w-advanced {
+    width: 75%;
+  }
+  
+  .w-expert {
+    width: 100%;
+  }
+  
