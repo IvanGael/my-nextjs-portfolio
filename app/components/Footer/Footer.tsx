@@ -23,21 +23,21 @@ const products: ProductType[] = [
 const footer = () => {
     return (
         <div className="bg-purple " id="first-section">
-            <div className="mx-auto mt-5 max-w-2xl pt-2 pb-8 sm:px-2 lg:max-w-7xl lg:px-4">
+            <div className="mx-auto mt-20 max-w-2xl pt-2 pb-8 sm:px-2 lg:max-w-7xl lg:px-4">
                 <div className="mt-10 flex flex-row items-center justify-center">
                     <div className="basis-1/4">
                         <div className='flex gap-4'>
                             <a href="https://github.com/IvanGael" target="_blank">
-                                <img src={'/assets/footer/github.svg'} alt="github" className='footer-icons' />
+                                <img src={'/assets/footer/github.svg'} alt="github" className='footer-icons' style={{width: '20px', height: '20px'}}/>
                             </a>
                             <a href="https://www.instagram.com/_ivan_gael" target="_blank">
-                                <img src={'/assets/footer/instagram.svg'} alt="instagram" className='footer-icons' />
+                                <img src={'/assets/footer/instagram.svg'} alt="instagram" className='footer-icons' style={{width: '20px', height: '20px'}}/>
                             </a>
                             <a href="https://www.linkedin.com/in/ivan-apedo/" target="_blank">
-                                <img src={'/assets/footer/linkedin.svg'} alt="linkedin" className='footer-icons' />
+                                <img src={'/assets/footer/linkedin.svg'} alt="linkedin" className='footer-icons' style={{width: '20px', height: '20px'}}/>
                             </a>
                             <a href="https://www.twitter.com/IvanGal19" target="_blank">
-                                <img src={'/assets/footer/twitter2.svg'} alt="twitter" className='footer-icons' />
+                                <img src={'/assets/footer/twitter2.svg'} alt="twitter" className='footer-icons' style={{width: '20px', height: '20px'}}/>
                             </a>
                         </div>
                     </div>

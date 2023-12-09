@@ -9,6 +9,7 @@
     padding: 20px;
     border-left: 5px solid #4E4FEB;
     margin-bottom: 20px;
+    background-color: lightgray; 
 }
 
 .timeline-content {

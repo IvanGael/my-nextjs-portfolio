@@ -3,16 +3,16 @@ import ProfessionalExperience from '../Experiences/ProfessionalExperience';
 
 const experiencesData: ProfessionalExperience[] = [
   {
-    title: 'Développeur mobile Fullstack',
+    title: 'Développeur web & mobile fullstack',
     company: 'OHANA ENTERPRISE',
     location: 'Remote',
     startDate: 'Sept 2023',
-    endDate: 'Nov 2023',
+    endDate: undefined,
     description:
       "Développement d'une application mobile et d'une plateforme web visant à évaluer le niveau des entreprises par rapport à l'économie circulaire. (Flutter, NextJS, Firebase)",
   },
   {
-    title: 'Développeur web Fullstack',
+    title: 'Développeur web fullstack',
     company: 'CEEL TECHNOLOGIES',
     location: 'Lomé, TOGO',
     startDate: 'Mai 2022',
@@ -21,7 +21,7 @@ const experiencesData: ProfessionalExperience[] = [
       "Développement d'une plateforme de délivrance rapide des actes judiciaires pour les tribunaux de première instance. (Angular, Spring boot, Postgresql)",
   },
   {
-    title: 'Développeur web',
+    title: 'Développeur web fullstack',
     company: 'IAI-TOGO',
     location: 'Lomé, TOGO',
     startDate: 'Juill 2021',
