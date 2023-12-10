@@ -9,23 +9,23 @@ interface Data {
 
 const data: Data[] = [
     {
-        imgSrc: "/assets/slickCompany/airbnb.svg"
+        imgSrc: "/assets/slickCompany/ceel.png"
     },
     {
-        imgSrc: "/assets/slickCompany/hubspot.svg"
+        imgSrc: "/assets/slickCompany/harvest.png"
     },
     {
-        imgSrc: "/assets/slickCompany/microsoft.svg"
+        imgSrc: "/assets/slickCompany/ohana.png"
     },
-    {
-        imgSrc: "/assets/slickCompany/google.svg"
-    },
-    {
-        imgSrc: "/assets/slickCompany/walmart.svg"
-    },
-    {
-        imgSrc: "/assets/slickCompany/fedex.svg"
-    },
+    // {
+    //     imgSrc: "/assets/slickCompany/google.svg"
+    // },
+    // {
+    //     imgSrc: "/assets/slickCompany/walmart.svg"
+    // },
+    // {
+    //     imgSrc: "/assets/slickCompany/fedex.svg"
+    // },
 ]
 
 
@@ -35,7 +35,7 @@ export default class MultipleItems extends Component {
         const settings = {
             dots: false,
             infinite: true,
-            slidesToShow: 4,
+            slidesToShow: 2,
             slidesToScroll: 1,
             arrows: false,
             autoplay: true,
@@ -46,7 +46,7 @@ export default class MultipleItems extends Component {
                 {
                     breakpoint: 1024,
                     settings: {
-                        slidesToShow: 4,
+                        slidesToShow: 2,
                         slidesToScroll: 1,
                         infinite: true,
                         dots: false
@@ -77,12 +77,12 @@ export default class MultipleItems extends Component {
 
             <div className='text-center bg-lightpink' >
                 <div className="mx-auto max-w-2xl py-16 px-4s sm:px-6 lg:max-w-7xl lg:px-8">
-                    <h2 className="text-lg my-10 text-lightgrey">Trusted by companies of all sizes</h2>
+                    <h2 className="text-lg my-10 text-lightgrey">Ils m'ont permit de me faire ma petite expérience</h2>
                     <div>
                         <Slider {...settings}>
                             {data.map((item, i) =>
                                 <div key={i}>
-                                    <img src={item.imgSrc} alt={item.imgSrc} />
+                                    <img src={item.imgSrc} alt={item.imgSrc} style={{width: '100px', height: '100px', objectFit: 'contain'}}/>
                                 </div>
                             )}
                         </Slider>

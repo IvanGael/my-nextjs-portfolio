@@ -10,6 +10,8 @@ const skillsData: ProfessionalSkills[] = [
     { skill: 'Flutter', level: '0.4' },
     { skill: 'Firebase', level: '0.4' },
     { skill: 'Docker', level: '0.2' },
+    { skill: 'CI/CD-Github actions', level: '0.2' },
+    { skill: 'Github', level: '0.3' },
 ];
 
 const ProfSkills = () => {

@@ -13,6 +13,15 @@ const experiencesData: ProfessionalExperience[] = [
   },
   {
     title: 'Développeur web fullstack',
+    company: 'HARVEST',
+    location: 'Valbonne, France',
+    startDate: 'Mai 2023',
+    endDate: 'Août 2023',
+    description:
+      "Projet VIC - Développement d'une solution visant à accompagner les banques dans l'instruction des demandes de crédits de leurs clients. (Angular, Spring boot, Microservices, Postgresql)",
+  },
+  {
+    title: 'Développeur web fullstack',
     company: 'CEEL TECHNOLOGIES',
     location: 'Lomé, TOGO',
     startDate: 'Mai 2022',
@@ -21,7 +30,7 @@ const experiencesData: ProfessionalExperience[] = [
       "Développement d'une plateforme de délivrance rapide des actes judiciaires pour les tribunaux de première instance. (Angular, Spring boot, Postgresql)",
   },
   {
-    title: 'Développeur web fullstack',
+    title: 'Développeur web',
     company: 'IAI-TOGO',
     location: 'Lomé, TOGO',
     startDate: 'Juill 2021',
