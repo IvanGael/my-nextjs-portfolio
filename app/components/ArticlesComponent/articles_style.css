@@ -1,0 +1,9 @@
+/* styles.css */
+.article-container {
+    transition: transform 0.6s ease-in-out;
+  }
+  
+  .article-container:hover {
+    transform: scale(1.06);
+  }
+  

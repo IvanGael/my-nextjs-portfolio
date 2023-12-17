@@ -31,6 +31,7 @@ const Navbar = () => {
         { name: 'Techs', href: '#techs-section', current: false },
         { name: 'Formations', href: '#formations-section', current: false },
         { name: 'Expériences', href: '#experiences-section', current: false },
+        { name: 'Articles', href: '#articles-section', current: false },
         // { name: 'Mentors', href: '#mentors-section', current: false },
         // { name: 'Testimonial', href: '#testimonial-section', current: false },
         // { name: 'Join', href: '#join-section', current: false },

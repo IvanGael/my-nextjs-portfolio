@@ -7,6 +7,7 @@ import Newsletter from './components/Newsletter/Newsletter';
 import Formation from './components/Formation/Formation';
 import ProfSkills from './components/professionnalSkills/profSkills';
 import ProfExperiences from './components/ProfessionnalExperiences/profExperiences';
+import Articles from './components/Articles/Articles';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <ProfSkills/>
       <Formation/>
       <ProfExperiences/>
+      <Articles/>
       {/* <Mentor /> */}
       {/* <Students /> */}
       {/* <Newsletter /> */}
