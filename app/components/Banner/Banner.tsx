@@ -72,11 +72,11 @@ const Banner = () => {
                         <div className="grid grid-rows-1 sm:grid-rows-1 lg:grid-rows-1 ">
                             <h1 className="text-md font-semibold tracking-tight text-gray-900 sm:text-md md:4px">
                                 Salut! <br /> Je suis <strong>Ivan APEDO</strong>, architecte logiciel développeur d'applications.
-                                Développeur web et mobile passionné, 
-                                j'investis la plupart de mon temps sur des projets(personnels, freelances). 
-                                De la conception à la mise en œuvre, 
-                                je transforme les idées en solutions digitales, en apportant une expertise technique 
-                                et une touche de créativité. 
+                                Passionné par le développement web et mobile, 
+                                je consacre la majeure partie de mon temps à travailler sur divers projets,
+                                qu'ils soient personnels ou en freelance. De la conception à la réalisation, 
+                                mon objectif est de concrétiser des idées en solutions numériques, en combinant 
+                                une expertise technique avec une touche de créativité.
                             </h1>
                             {/* <div className="col-span-3">
                                 <Dropdownone />

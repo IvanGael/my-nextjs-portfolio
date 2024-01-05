@@ -1,6 +1,5 @@
 "use client"
 
-import { useLayoutEffect } from 'react';
 import Hotjar from '@hotjar/browser';
 import Banner from './components/Banner/Banner';
 import Companies from './components/Companies/Companies';
@@ -14,13 +13,6 @@ import ProfExperiences from './components/ProfessionnalExperiences/profExperienc
 import Articles from './components/Articles/Articles';
 
 export default function Home() {
-  const siteId = 3814650;
-  const hotjarVersion = 6;
-
-  useLayoutEffect(() => {
-    Hotjar.init(siteId, hotjarVersion);
-  }, []);
-
 
   return (
     <main>
