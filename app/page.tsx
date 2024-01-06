@@ -17,12 +17,12 @@ export default function Home() {
   return (
     <main>
       <Banner />
-      <Companies />
       <Tabs />
       <ProfSkills />
       <Formation />
       <ProfExperiences />
       <Articles />
+      {/* <Companies /> */}
       {/* <Mentor /> */}
       {/* <Students /> */}
       {/* <Newsletter /> */}

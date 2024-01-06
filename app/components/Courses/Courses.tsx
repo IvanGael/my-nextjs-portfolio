@@ -16,7 +16,7 @@ interface Name {
 const names: Name[] = [
     {
         course: 'React, NodeJS, MongoDB',
-        imageSrc: '/assets/pg2.jpg',
+        imageSrc: '/assets/project_web2.png',
         profession: 'MyShop',
         desc: 'Simple application de shopping',
         price: '40',
@@ -24,7 +24,7 @@ const names: Name[] = [
     },
     {
         course: 'React, Firebase',
-        imageSrc: '/assets/pg1.jpg',
+        imageSrc: '/assets/project_web3.png',
         profession: 'MonBlog',
         desc: 'Simple application de blog',
         price: '21',
@@ -32,7 +32,7 @@ const names: Name[] = [
     },
     {
         course: 'React, Firebase',
-        imageSrc: '/assets/pg3.jpg',
+        imageSrc: '/assets/project_web4.png',
         profession: 'Resfood',
         desc: 'Réservation de places de restaurants',
         price: '21',
@@ -40,7 +40,7 @@ const names: Name[] = [
     },
     {
         course: 'Angular, Spring boot, Postgresql',
-        imageSrc: '/assets/pg4.jpg',
+        imageSrc: '/assets/project_web1.png',
         profession: 'TPI',
         desc: 'Digitalisation des actes judiciaires',
         price: '99',
@@ -48,7 +48,7 @@ const names: Name[] = [
     },
     {
         course: 'NextJS, Firebase',
-        imageSrc: '/assets/pg5.png',
+        imageSrc: '/assets/project_web5.png',
         profession: "Diag'Ec",
         desc: "Sensibilisation des entreprises à l'économie circulaire",
         price: '99',
@@ -56,23 +56,23 @@ const names: Name[] = [
     },
     {
         course: 'Java swing, C#',
-        imageSrc: '/assets/pg6.png',
+        imageSrc: '/assets/project_web6.png',
         profession: "Let's go biking",
         desc: "Obtenir le meilleur itinéaire pour un trajet à vélo",
         price: '99',
         category: 'webdevelopment'
     },
-    {
-        course: 'Flutter, Go',
-        imageSrc: '/assets/pg7.png',
-        profession: "Todo",
-        desc: "Simple application todo d'ajout de notes ou tâches",
-        price: '99',
-        category: 'webdevelopment'
-    },
+    // {
+    //     course: 'Flutter, Go',
+    //     imageSrc: '/assets/pg7.png',
+    //     profession: "Todo",
+    //     desc: "Simple application todo d'ajout de notes ou tâches",
+    //     price: '99',
+    //     category: 'webdevelopment'
+    // },
     {
         course: 'React Native',
-        imageSrc: '/assets/clmtrk.jpg',
+        imageSrc: '/assets/project6.png',
         profession: 'Climatrack',
         desc: "Connaître les prévisions métérologiques de n'importe quelle ville",
         price: '89',
@@ -80,7 +80,7 @@ const names: Name[] = [
     },
     {
         course: 'React Native',
-        imageSrc: '/assets/chatzen.jpg',
+        imageSrc: '/assets/project7.png',
         profession: 'ChatZen',
         desc: "Obtenir des réponses à tous les questions possibles comme sur ChatGpt",
         price: '89',
@@ -88,7 +88,7 @@ const names: Name[] = [
     },
     {
         course: 'Kotlin, Firebase',
-        imageSrc: '/assets/chat_app.png',
+        imageSrc: '/assets/project1.png',
         profession: 'MyChat',
         desc: 'Messagerie instantanée, discussions entre amis',
         price: '69',
@@ -96,7 +96,7 @@ const names: Name[] = [
     },
     {
         course: 'Kotlin',
-        imageSrc: '/assets/kotlin_currency_converter_app.jpg',
+        imageSrc: '/assets/project5.png',
         profession: 'CurrencyConverter',
         desc: 'Convertir une monnaie dans tous les devises du monde',
         price: '69',
@@ -104,7 +104,7 @@ const names: Name[] = [
     },
     {
         course: 'Kotlin',
-        imageSrc: '/assets/news_app.png',
+        imageSrc: '/assets/project3.png',
         profession: 'WorldFeed',
         desc: 'Obtenir des news de différents pays du monde',
         price: '69',
@@ -112,7 +112,7 @@ const names: Name[] = [
     },
     {
         course: 'Flutter',
-        imageSrc: '/assets/order_ease.png',
+        imageSrc: '/assets/project2.png',
         profession: 'OrderEase',
         desc: 'Gérer les commandes et les paiements des clients de votre business',
         price: '69',
@@ -120,7 +120,7 @@ const names: Name[] = [
     },
     {
         course: 'Flutter, Firebase',
-        imageSrc: '/assets/diagec_mob.jpg',
+        imageSrc: '/assets/project4.png',
         profession: "Diag'Ec",
         desc: "Sensibilisation des entreprises à l'économie circulaire",
         price: '69',
