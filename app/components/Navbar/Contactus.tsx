@@ -59,13 +59,13 @@ const Contactusform = () => {
         <>
             <div className=" inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto md:ml-6 sm:pr-0">
                 <div className='md:hidden'>
-                    <button type="button" className={`bg-purple hover:bg-purple hover:text-white text-white py-4 px-5 rounded text-15px font-medium ${displayText}`} onClick={openModal}>
-                        Me recruter 😊💡
+                    <button type="button" className={`bg-purple hover:bg-purple hover:text-white text-white py-4 px-5 rounded-full text-15px font-medium ${displayText}`} onClick={openModal}>
+                        Hire me
                     </button>
                 </div>
                 <div className='hidden md:block'>
-                    <button type="button" className={`bg-purple hover:bg-purple hover:text-white text-white py-4 px-5 rounded text-15px font-medium space-links ${displayText}`} onClick={openModal}>
-                        Me recruter 😊💡
+                    <button type="button" className={`bg-purple hover:bg-purple hover:text-white text-white py-4 px-5 rounded-full text-15px font-medium space-links ${displayText}`} onClick={openModal}>
+                        Hire me
                     </button>
                 </div>
             </div>
@@ -103,7 +103,7 @@ const Contactusform = () => {
                                             src="/assets/logo/Logo.svg"
                                             alt="Your Company"
                                         /> */}
-                                        <p className="mb-8 lg:mb-16 mt-8 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Contacter moi maitenant!</p>
+                                        {/* <p className="mb-8 lg:mb-16 mt-8 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Contacter moi maitenant!</p> */}
                                         <form action="#" className="space-y-8" onSubmit={handleSubmit}>
                                             {/* <div>
                                                 <label htmlFor="text" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your Name</label>
@@ -146,12 +146,14 @@ const Contactusform = () => {
                                                     className="relative block w-full appearance-none  rounded-md border border-grey500 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm" placeholder="Leave a comment..."></textarea>
                                             </div> */}
 
-                                            <div className='mt-6 flex items-center'>
+                                            <div className='flex items-center justify-center'>
                                                 <a href={emailLink}
-                                                    className="py-3 px-5 text-sm disabled:opacity-50 font-medium w-full text-center text-white rounded-lg bg-purple  hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
-                                                    Me Laisser un petit message
+                                                    className="py-3 px-5 text-sm disabled:opacity-50 font-medium w-32 text-center text-white rounded-lg bg-purple  hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+                                                    Email me
                                                 </a>
                                             </div>
+
+                                            <p className="mt-4 font-light text-center text-gray-500 dark:text-gray-400">Or drop an message <h2 className='font-bold'>+33 (0)6 18 55 68 12</h2></p>
 
                                         </form>
 

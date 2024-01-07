@@ -3,40 +3,40 @@ import ProfessionalExperience from '../Experiences/ProfessionalExperience';
 
 const experiencesData: ProfessionalExperience[] = [
   {
-    title: 'Développeur web & mobile fullstack',
+    title: 'Full-stack web & mobile developer',
     company: 'OHANA ENTERPRISE',
     location: 'Remote',
     startDate: 'Sept 2023',
     endDate: undefined,
     description:
-      "Développement d'une application mobile et d'une plateforme web visant à évaluer le niveau des entreprises par rapport à l'économie circulaire. (Flutter, NextJS, Firebase)",
+      "Development of a mobile application and a web platform aimed at assessing the level of companies in relation to the circular economy. (Flutter, NextJS, Firebase)",
   },
   {
-    title: 'Développeur web fullstack',
+    title: 'Full-stack web developer',
     company: 'HARVEST',
     location: 'Valbonne, France',
-    startDate: 'Mai 2023',
-    endDate: 'Août 2023',
+    startDate: 'May 2023',
+    endDate: 'Aug 2023',
     description:
-      "Projet VIC - Développement d'une solution visant à accompagner les banques dans l'instruction des demandes de crédits de leurs clients. (Angular, Spring boot, Microservices, Postgresql)",
+      "VIC Project - Development of a solution aimed at supporting banks in processing their customers' credit requests. (Angular, Spring boot, Microservices, Postgresql)",
   },
   {
-    title: 'Développeur web fullstack',
+    title: 'Full-stack web developer',
     company: 'CEEL TECHNOLOGIES',
     location: 'Lomé, TOGO',
-    startDate: 'Mai 2022',
-    endDate: 'Août 2022',
+    startDate: 'May 2022',
+    endDate: 'Aug 2022',
     description:
-      "Développement d'une plateforme de délivrance rapide des actes judiciaires pour les tribunaux de première instance. (Angular, Spring boot, Postgresql)",
+      "Development of a platform for the rapid delivery of judicial documents for first instance courts. (Angular, Spring boot, Postgresql)",
   },
   {
-    title: 'Développeur web',
+    title: 'Web developer',
     company: 'IAI-TOGO',
     location: 'Lomé, TOGO',
-    startDate: 'Juill 2021',
+    startDate: 'Jul 2021',
     endDate: 'Sept 2021',
     description:
-      "Développement d'une plateforme de réservation de places pour les restaurants. (React, Firebase)",
+      "Development of a seat reservation platform for restaurants. (React, Firebase)",
   },
 ];
 
@@ -46,7 +46,7 @@ const ProfExperiences = () => {
         <div id="experiences-section" className="mx-auto mb-6 max-w-2xl pb-16 px-4 sm:py-20 sm:px-6 lg:max-w-7xl lg:px-8">
 
             <div className='sm:flex justify-between items-center mb-12'>
-                <h2 className="text-3xl sm:text-5xl font-bold tracking-tight text-gray-900 my-4">Mon parcours professionnel</h2>
+                <h2 className="text-3xl sm:text-5xl font-bold tracking-tight text-gray-900 my-4">My professional experiences</h2>
             </div>
 
             <Experience experiences={experiencesData} />

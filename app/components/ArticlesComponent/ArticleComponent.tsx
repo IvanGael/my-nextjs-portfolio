@@ -79,7 +79,7 @@ const ArticleComponent: React.FC<ArticlesProps> = ({ articles }) => {
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                 <p className="text-gray-500">{article.creationDate}</p>
                 <button className='bg-bgpink px-4 py-2' onClick={() => handleOpenModal(article)}>
-                  Voir
+                  show
                 </button>
               </div>
             </div>
@@ -91,7 +91,7 @@ const ArticleComponent: React.FC<ArticlesProps> = ({ articles }) => {
       {showLoadMoreButton && (
         <div className="mt-4 flex justify-center">
           <button onClick={handleLoadMore} className="bg-orange text-white px-4 py-2 rounded-md">
-            Charger plus
+          Load more
           </button>
         </div>
       )}
@@ -104,10 +104,10 @@ const ArticleComponent: React.FC<ArticlesProps> = ({ articles }) => {
         style={customStyles}
       >
         {selectedArticle && (
-          <div style={{ width: '550px' }}>
+          <div style={{ width: '350px' }}>
             <div className='flex justify-end'>
               <button onClick={handleCloseModal} className="bg-black text-white px-4 py-2 rounded-md mt-4">
-                Fermer
+                Close
               </button>
             </div>
 

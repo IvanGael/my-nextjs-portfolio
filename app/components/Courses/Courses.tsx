@@ -18,15 +18,15 @@ const names: Name[] = [
         course: 'React, NodeJS, MongoDB',
         imageSrc: '/assets/project_web2.png',
         profession: 'MyShop',
-        desc: 'Simple application de shopping',
+        desc: 'Simple shopping app',
         price: '40',
         category: 'webdevelopment'
     },
     {
         course: 'React, Firebase',
         imageSrc: '/assets/project_web3.png',
-        profession: 'MonBlog',
-        desc: 'Simple application de blog',
+        profession: 'MyBlog',
+        desc: 'Simple blog app',
         price: '21',
         category: 'webdevelopment'
     },
@@ -34,7 +34,7 @@ const names: Name[] = [
         course: 'React, Firebase',
         imageSrc: '/assets/project_web4.png',
         profession: 'Resfood',
-        desc: 'Réservation de places de restaurants',
+        desc: 'Reservation of restaurant seats',
         price: '21',
         category: 'webdevelopment'
     },
@@ -42,7 +42,7 @@ const names: Name[] = [
         course: 'Angular, Spring boot, Postgresql',
         imageSrc: '/assets/project_web1.png',
         profession: 'TPI',
-        desc: 'Digitalisation des actes judiciaires',
+        desc: 'Digitization of judicial documents',
         price: '99',
         category: 'webdevelopment'
     },
@@ -50,7 +50,7 @@ const names: Name[] = [
         course: 'NextJS, Firebase',
         imageSrc: '/assets/project_web5.png',
         profession: "Diag'Ec",
-        desc: "Sensibilisation des entreprises à l'économie circulaire",
+        desc: "Raising business awareness of the circular economy",
         price: '99',
         category: 'webdevelopment'
     },
@@ -58,7 +58,7 @@ const names: Name[] = [
         course: 'Java swing, C#',
         imageSrc: '/assets/project_web6.png',
         profession: "Let's go biking",
-        desc: "Obtenir le meilleur itinéaire pour un trajet à vélo",
+        desc: "Minimize the distance traveled on foot by prioritizing the use of bicycles",
         price: '99',
         category: 'webdevelopment'
     },
@@ -74,7 +74,7 @@ const names: Name[] = [
         course: 'React Native',
         imageSrc: '/assets/project6.png',
         profession: 'Climatrack',
-        desc: "Connaître les prévisions métérologiques de n'importe quelle ville",
+        desc: "Know the weather forecast",
         price: '89',
         category: 'mobiledevelopment'
     },
@@ -82,7 +82,7 @@ const names: Name[] = [
         course: 'React Native',
         imageSrc: '/assets/project7.png',
         profession: 'ChatZen',
-        desc: "Obtenir des réponses à tous les questions possibles comme sur ChatGpt",
+        desc: "ChatGpt clone",
         price: '89',
         category: 'mobiledevelopment'
     },
@@ -90,7 +90,7 @@ const names: Name[] = [
         course: 'Kotlin, Firebase',
         imageSrc: '/assets/project1.png',
         profession: 'MyChat',
-        desc: 'Messagerie instantanée, discussions entre amis',
+        desc: 'Instant messaging, chats with friends',
         price: '69',
         category: 'mobiledevelopment'
     },
@@ -98,7 +98,7 @@ const names: Name[] = [
         course: 'Kotlin',
         imageSrc: '/assets/project5.png',
         profession: 'CurrencyConverter',
-        desc: 'Convertir une monnaie dans tous les devises du monde',
+        desc: 'Convert a currency into all currencies',
         price: '69',
         category: 'mobiledevelopment'
     },
@@ -106,7 +106,7 @@ const names: Name[] = [
         course: 'Kotlin',
         imageSrc: '/assets/project3.png',
         profession: 'WorldFeed',
-        desc: 'Obtenir des news de différents pays du monde',
+        desc: 'Get news from different countries around the world',
         price: '69',
         category: 'mobiledevelopment'
     },
@@ -114,7 +114,7 @@ const names: Name[] = [
         course: 'Flutter',
         imageSrc: '/assets/project2.png',
         profession: 'OrderEase',
-        desc: 'Gérer les commandes et les paiements des clients de votre business',
+        desc: "Manage orders and payments from your business's customers",
         price: '69',
         category: 'mobiledevelopment'
     },
@@ -122,7 +122,7 @@ const names: Name[] = [
         course: 'Flutter, Firebase',
         imageSrc: '/assets/project4.png',
         profession: "Diag'Ec",
-        desc: "Sensibilisation des entreprises à l'économie circulaire",
+        desc: "Raising business awareness of the circular economy",
         price: '69',
         category: 'mobiledevelopment'
     },
@@ -263,7 +263,7 @@ const NamesList = () => {
             <div id='works-section' className="mx-auto max-w-2xl py-16 px-4 sm:py-36 sm:px-6 lg:max-w-7xl lg:px-8">
 
                 <div className='sm:flex justify-between items-center pb-12'>
-                    <h2 className="text-3xl sm:text-5xl font-bold tracking-tight text-gray-900 my-4">Mes projets</h2>
+                    <h2 className="text-3xl sm:text-5xl font-bold tracking-tight text-gray-900 my-4">My achievements</h2>
                     {/* <div>
                         <button className="bg-transparent hover:bg-purple text-purple font-medium hover:text-white py-3 px-4 border border-purple hover:border-transparent rounded">
                             Explore Classes

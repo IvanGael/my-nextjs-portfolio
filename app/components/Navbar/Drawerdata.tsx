@@ -9,11 +9,12 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-  { name: 'Accueil', href: '#main', current: true },
-  { name: 'Projets', href: '#works-section', current: false },
+  { name: 'Who am I ?', href: '#about', current: true },
+  { name: 'Achievements', href: '#works-section', current: false },
   { name: 'Techs', href: '#techs-section', current: false },
-  { name: 'Formations', href: '#formations-section', current: false },
-  { name: 'Expériences', href: '#experiences-section', current: false },
+  { name: 'Academic background', href: '#formations-section', current: false },
+  { name: 'Career', href: '#experiences-section', current: false },
+  { name: 'Articles', href: '#articles-section', current: false },
 ]
 
 function classNames(...classes: string[]) {

@@ -43,7 +43,7 @@ const footer = () => {
                     </div>
 
                     <div className='basis-1/4'>
-                        <h3 className='text-center text-offwhite'>Copyright &copy;{new Date().getFullYear()} | Tous droits réservés</h3>
+                        <h3 className='text-center text-offwhite'>Copyright &copy;{new Date().getFullYear()} | All rights reserved</h3>
                     </div>
                 </div>
             </div>

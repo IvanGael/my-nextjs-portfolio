@@ -3,22 +3,22 @@ import AcademicBackground from '../Timeline/AcademicBackground';
 
 const academicData: AcademicBackground[] = [
   {
-    title: "Génie Logiciel et systèmes d'information",
-    degree: "Licence professionnelle",
+    title: "Software and information systems engineering",
+    degree: "Professional license",
     institution: "Institut Africain d'Informatique",
     year: "2019-2022",
   },
   {
-    title: 'Sciences informatiques',
-    degree: 'Cycle ingénieur 4ème année',
+    title: 'Computer Science',
+    degree: '4th year engineering cycle',
     institution: 'Polytech Nice Sophia',
     year: "2022-2023",
   },
   {
-    title: 'Gestion de projets informatiques, Développement logiciel & Technologies émergentes',
-    degree: 'Master of Science professionnel',
+    title: 'IT Project Management, Software Development & Emerging Technologies',
+    degree: 'Professional Master of Science',
     institution: 'Epitech Technology Nice',
-    year: "2023-Aujourdhui",
+    year: "2023-Present",
   },
 ];
 
@@ -29,7 +29,7 @@ const Formation = () => {
             <div id="formations-section" className="mx-auto max-w-2xl pb-16 px-4 sm:py-20 sm:px-6 lg:max-w-7xl lg:px-8">
 
                 <div className='sm:flex justify-between items-center mb-12'>
-                    <h2 className="text-3xl sm:text-5xl font-bold tracking-tight text-gray-900 my-4">Mon parcours académique</h2>
+                    <h2 className="text-3xl sm:text-5xl font-bold tracking-tight text-gray-900 my-4">My academic background</h2>
                 </div>
 
                 <div>

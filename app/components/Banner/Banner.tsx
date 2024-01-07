@@ -10,7 +10,7 @@ const Banner = () => {
                 <div className="mx-auto max-w-5xl pt-16 sm:pt-40 sm:pb-24">
                     <div className="text-center">
                         <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-2xl md:4px">
-                            Bienvenue sur mon portfolio
+                            I make beautiful apps to empower your business
                         </h1>
                         {/* <p className="mt-6 text-lg leading-8 text-black">
                             Build skills with our courses and mentor from world-class companies.
@@ -71,12 +71,13 @@ const Banner = () => {
                     <div className="mx-auto max-w-xl mt-0 pt-6 pb-8 px-6 lg:max-w-xl lg:px-8 bg-white rounded-lg shadow-xl transition ease-in-out delay-150 hover:-translate-y-1.5 hover:skew-y-6">
                         <div className="grid grid-rows-1 sm:grid-rows-1 lg:grid-rows-1 ">
                             <h1 className="text-md font-semibold tracking-tight text-gray-900 sm:text-md md:4px">
-                                Salut! <br /> Je suis <strong>Ivan APEDO</strong>, architecte logiciel développeur d'applications.
-                                Passionné par le développement web et mobile, 
-                                je consacre la majeure partie de mon temps à travailler sur divers projets,
-                                qu'ils soient personnels ou en freelance. De la conception à la réalisation, 
-                                mon objectif est de concrétiser des idées en solutions numériques, en combinant 
-                                une expertise technique avec une touche de créativité.
+                                <strong>Hi,</strong> <br />
+                                <strong>I'm Ivan APEDO.</strong> <br />
+                                I'm a software architect and application developer.
+                                Passionate about web and mobile development, I spend most of my 
+                                time working on various projects, whether personal or freelance. 
+                                From design to completion, my goal is to turn ideas into digital 
+                                solutions, combining technical expertise with a touch of creativity.
                             </h1>
                             {/* <div className="col-span-3">
                                 <Dropdownone />

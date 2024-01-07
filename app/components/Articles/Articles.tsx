@@ -4,138 +4,138 @@ import ArticleComponent from "../ArticlesComponent/ArticleComponent";
 const articlesData: Article[] = [
     {
         id: 1,
-        title: 'Installer Sonarqube en local avec Docker',
-        description: 'Installer Sonarqube en local avec Docker et utiliser Sonarqube pour analyser un projet NextJs',
+        title: 'Install Sonarqube locally with Docker',
+        description: 'Install Sonarqube locally with Docker and use Sonarqube to analyze a NextJs project',
         image: '/assets/sonarqube.jpg',
-        creationDate: '12 Décembre 2023',
+        creationDate: '12 Dec 2023',
         steps: [
             {
                 id: 'step1',
-                title: "Etape 1 : Téléchargez l'image Docker SonarQube",
+                title: "Step 1 : Download the SonarQube Docker image",
                 command: 'docker pull sonarqube'
             },
             {
                 id: 'step2',
-                title: "Etape 2 : Exécutez SonarQube avec Docker",
+                title: "Step 2 : Run SonarQube with Docker",
                 command: 'docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube'
             },
             {
                 id: 'step3',
-                title: "Etape 3 : Assurez-vous que le conteneur est en cours d'exécution",
+                title: "Step 3 : Make sure the container is running",
                 command: 'docker ps'
             },
             {
                 id: 'step4',
-                title: "Etape 4 : Vous pouvez accéder à l'interface web de SonarQube à l'adresse http://localhost:9000 (utilisez le nom d'utilisateur et le mot de passe par défaut : admin/admin).",
+                title: "Step 4 : You can access the SonarQube web interface at http://localhost:9000 (use the default username and password: admin/admin).",
                 command: ''
             },
             {
                 id: 'step5',
-                title: "Etape 5 : Installer SonarScanner dans votre projet",
+                title: "Step 5 : Install SonarScanner in your project",
                 command: 'npm install -D sonarqube-scanner'
             },
             {
                 id: 'step6',
-                title: "Etape 6 : Générer un jeton d'accès SonarQube : Connectez-vous à l'interface web de SonarQube - Accédez à 'My Account' > 'Security' > 'Tokens' - Générez un nouveau jeton en lui donnant les autorisations nécessaires.",
+                title: "Step 6 : Generate a SonarQube access token: Log in to the SonarQube web interface - Go to 'My Account' > 'Security' > 'Tokens' - Generate a new token by giving it the necessary permissions.",
                 command: ''
             },
             {
                 id: 'step7',
-                title: "Etape 7 : Créer un fichier sonar-project.properties à la racine de votre projet",
+                title: "Step 7 : Create a sonar-project.properties file in the root of your project",
                 command: 'sonar.projectKey=my-project-key sonar.projectName=My Project sonar.projectVersion=1.0 sonar.sources=. sonar.token=<votre_jeton>'
             },
             {
                 id: 'step8',
-                title: "Etape 8 : Exécutez SonarScanner dans le répertoire de votre projet",
+                title: "Step 8 : Run SonarScanner in your project directory",
                 command: 'npx sonarqube-scanner'
             },
             {
                 id: 'step9',
-                title: "Etape 9 : Rechargez l'interface web de SonarQube (http://localhost:9000) pour voir les résultats de l'analyse.",
+                title: "Step 9 : Reload the SonarQube web interface (http://localhost:9000) to see the analysis results.",
                 command: ''
             }
         ]
     },
     {
         id: 2,
-        title: 'Déployer une application sur Google Cloud Platform',
-        description: 'Déployer une application web NextJS/Firebase sur Google Cloud Platform',
+        title: 'Deploy an application on Google Cloud Platform',
+        description: 'Deploy a NextJS/Firebase web application on Google Cloud Platform',
         image: '/assets/gcp.jpg',
-        creationDate: '12 Décembre 2023',
+        creationDate: '12 Dec 2023',
         steps: [
             {
                 id: 'step1',
-                title: "Etape 1 : Connectez-vous à votre console Google Cloud Platform",
+                title: "Step 1 : Log in to your Google Cloud Platform console",
                 command: ''
             },
             {
                 id: 'step2',
-                title: "Etape 2 : Sélectionner votre projet firebase. Normalement il est automatiquement répertorié dans vos projets GCP",
+                title: "Step 2 : Select your firebase project. Normally it is automatically listed in your GCP projects",
                 command: ''
             },
             {
                 id: 'step3',
-                title: "Etape 3 : Ensuite dans la barre de recherche, rechercher AppEngine",
+                title: "Step 3 : Then in the search bar, search for AppEngine",
                 command: ''
             },
             {
                 id: 'step4',
-                title: "Etape 4 : Cliquer sur le bouton 'Activate cloud shell' pour accéder au cloud shell",
+                title: "Step 4 : Click on the 'Activate cloud shell' button to access the cloud shell",
                 command: ''
             },
             {
                 id: 'step5',
-                title: "Etape 5 : Vous devez avoir pushé le code de votre projet NextJs sur github",
+                title: "Step 5 : You must have pushed the code of your NextJs project to github",
                 command: ''
             },
             {
                 id: 'step6',
-                title: "Etape 6 : Avant de pusher le projet sur Git, créer un fichier app.yaml à la racine de votre projet",
+                title: "Step 6 : Before pushing the project to Git, create an app.yaml file at the root of your project",
                 command: ''
             },
             {
                 id: 'step7',
-                title: "Etape 7 : Télécharger le contenu du fichier app.yaml à l'adresse :",
+                title: "Step 7 : Download the contents of the app.yaml file at:",
                 command: "https://drive.google.com/file/d/1OscOphHgIXO01DEH1YXB1z9pZUimb18a/view?usp=sharing"
             },
             {
                 id: 'step8',
-                title: "Etape 8 : Depuis le cloud shell, cloner votre projet Nextjs depuis github",
+                title: "Step 8 : From the cloud shell, clone your Nextjs project from github",
                 command: 'git clone <URL_DU_DEPOT_GIT>'
             },
             {
                 id: 'step9',
-                title: "Etape 9 : Entrer dans le dossier du projet",
+                title: "Step 9 : Enter project folder",
                 command: 'cd <NOM_DU_DOSSIER>'
             },
             {
                 id: 'step10',
-                title: "Etape 10 : Initialiser les dépendences du projet",
+                title: "Step 10 : Init project dependencies",
                 command: 'npm install'
             },
             {
                 id: 'step11',
-                title: "Etape 11 : Builder le projet",
+                title: "Step 11 : Build the project",
                 command: 'npm run build'
             },
             {
                 id: 'step12',
-                title: "Etape 12 : Exporter le projet",
+                title: "Step 12 : Export the project",
                 command: 'npm run export'
             },
             {
                 id: 'step13',
-                title: "Etape 13 : Seul le dossier 'out' généré et le fichier app.yaml seront pris en compte lors du déploiement. Vous pouvez donc vous débarasser des fichiers et dossiers inutiles",
+                title: "Step 13 : Only the generated 'out' folder and the app.yaml file will be taken into account during deployment. So you need to get rid of unnecessary files and folders",
                 command: 'rm -r <Nom_DU_DOSSIER .... rm <NOM_DU_FICHIER>'
             },
             {
                 id: 'step14',
-                title: "Etape 14 : Lancer le déploiement",
+                title: "Step 14 : Start deployment",
                 command: 'gcloud app deploy'
             },
             {
                 id: 'step15',
-                title: "Etape 15 : Vous obtiendrez une url généré pour votre app",
+                title: "Step 15 : You will get a generated url for your app",
                 command: ''
             },
         ]

@@ -8,6 +8,7 @@ import Signdialog from "./Signdialog";
 import Registerdialog from "./Registerdialog";
 import Contactus from "./Contactus";
 
+import LanguageSwitcher from '../language/languageSwitcher';
 
 interface NavigationItem {
     name: string;
@@ -26,11 +27,11 @@ const Navbar = () => {
 
 
     const navigation: NavigationItem[] = [
-        { name: 'Accueil', href: '#main', current: true },
-        { name: 'Projets', href: '#works-section', current: false },
+        { name: 'Who am I ?', href: '#about', current: true },
+        { name: 'Achievements', href: '#works-section', current: false },
         { name: 'Techs', href: '#techs-section', current: false },
-        { name: 'Formations', href: '#formations-section', current: false },
-        { name: 'Expériences', href: '#experiences-section', current: false },
+        { name: 'Academic background', href: '#formations-section', current: false },
+        { name: 'Career', href: '#experiences-section', current: false },
         { name: 'Articles', href: '#articles-section', current: false },
         // { name: 'Mentors', href: '#mentors-section', current: false },
         // { name: 'Testimonial', href: '#testimonial-section', current: false },
@@ -94,6 +95,8 @@ const Navbar = () => {
                                 </div>
                             </div>
                         </div>
+
+                        {/* <LanguageSwitcher/> */}
 
                         {/* SIGNIN DIALOG */}
 
